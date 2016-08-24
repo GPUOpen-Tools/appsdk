@@ -1,0 +1,1 @@
+# common-lib-amd-APPSDK-3.0
