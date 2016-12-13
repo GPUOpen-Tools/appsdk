@@ -11,7 +11,7 @@
       <AdditionalIncludeDirectories>$(ATIStreamSDKDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(ATIStreamSDKDir)\lib\$(GDTPlatformExt);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ATIStreamSDKDir)\lib\$(AMDTPlatformExt);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
