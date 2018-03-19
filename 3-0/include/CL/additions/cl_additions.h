@@ -209,6 +209,10 @@ typedef CL_API_ENTRY cl_int (CL_API_CALL * clObjectSetValueForKeyAMD_fn)(
     #define CL_DEVICE_PREFERRED_CONSTANT_BUFFER_SIZE_AMD    0x4033
 #endif
 
+#ifndef CL_DEVICE_PCIE_ID_AMD
+    #define CL_DEVICE_PCIE_ID_AMD                       0x4034
+#endif
+
 /**********************
 * cl_amd_liquid_flash *
 ***********************/
