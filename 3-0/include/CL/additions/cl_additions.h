@@ -277,6 +277,12 @@ typedef CL_API_ENTRY cl_int
     const cl_event * /*event_wait_list*/,
     cl_event * /*event*/) CL_EXT_SUFFIX__VERSION_1_2;
 
+/*************
+* cl_amd_hsa *
+**************/
+#define CL_HSA_ENABLED_AMD                          (1ull << 62)
+#define CL_HSA_DISABLED_AMD                         (1ull << 63)
+
 #ifdef __cplusplus
 }
 #endif
